@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
@@ -14,13 +17,39 @@ a {
 * {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+.stroke-text {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 230px;
+  align-self: center;
+  user-select: none;
+}
+.white {
+  background-color: white !important;
+  color: #000 !important;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.transparent {
+  color: white !important;
+  background: transparent !important;
+}
+.skill::before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-70%);
 }
