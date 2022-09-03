@@ -30,7 +30,7 @@ const Aboutme = () => {
           <div className="grow md:pl-10  self-stretch  py-6">
             <h4 className="font-bold mb-4 text-red-500 text-lg">About me</h4>
             <h1 className="text-3xl font-bold mb-6">
-              I'm Mohamed Web Designer
+              I{"'"}m Mohamed Web Designer
             </h1>
             <p className="text-lg text-slate-400 font-regular mb-6">
               Hi! My name is Aali Walker. I am UI/UX designer, and I'm very
