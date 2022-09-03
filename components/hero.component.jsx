@@ -23,7 +23,7 @@ const Hero = () => {
         <Container style="h-full">
           <div className="w-full h-full  flex flex-col-reverse md:flex-row items-center justify-between relative ">
             <div className="flex flex-col  space-y-4 md:space-y-8 z-10">
-              <h4 className="font-bold text-xl ">Hello, I'm</h4>
+              <h4 className="font-bold text-xl ">Hello, I{"'"}m</h4>
               <h1 className="font-bold text-5xl ">Mohamed Fadel</h1>
               <h4 className="font-bold text-3xl ">
                 Creative{"  "}
@@ -53,7 +53,7 @@ const Hero = () => {
                     viewBox="0 0 24 24"
                     strokeWidth="1.5"
                     stroke="currentColor"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                   >
                     <path
                       strokeLinecap="round"
