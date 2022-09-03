@@ -15,13 +15,13 @@ const Hero = () => {
   });
   return (
     <div
-      className="flex flex-col pt-24 md:pt-4  h-auto md:h-screen bg-slate-800 text-white  "
+      className="flex flex-col  h-auto md:h-screen bg-slate-800 text-white  "
       id="home"
     >
       <Header />
       <div className="w-full grow">
         <Container style="h-full">
-          <div className="w-full h-full  flex flex-col-reverse md:flex-row items-center justify-between relative ">
+          <div className="w-full h-full pt-24  flex flex-col-reverse md:flex-row items-center justify-between relative ">
             <div className="flex flex-col  space-y-4 md:space-y-8 z-10">
               <h4 className="font-bold text-xl ">Hello, I{"'"}m</h4>
               <h1 className="font-bold text-5xl ">Mohamed Fadel</h1>
@@ -41,7 +41,7 @@ const Hero = () => {
                   className="text-red-500"
                 />
               </h4>
-              <div className="w-full flex flex-col space-y-4  items-center space-x-6">
+              <div className="w-full flex   items-center space-x-6">
                 <Button
                   href="#contact"
                   title="Contact me"
@@ -81,7 +81,7 @@ const Hero = () => {
                 <img
                   data-depth="0.1"
                   src="me.jpg"
-                  className="h-full   drop-shadow-2xl rounded-0 md:rounded-full md:layer  md:absolute"
+                  className="h-full   drop-shadow-2xl rounded-0 md:rounded-full layer absolute"
                 />
                 <div
                   data-depth="0.5"
