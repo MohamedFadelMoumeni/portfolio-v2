@@ -33,7 +33,7 @@ const Aboutme = () => {
               I{"'"}m Mohamed Web Designer
             </h1>
             <p className="text-lg text-slate-400 font-regular mb-6">
-              Hi! My name is Aali Walker. I am UI/UX designer, and I'm very
+              Hi! My name is Aali Walker. I am UI/UX designer, and I{"'"}m very
               passionate and dedicated to my work.
             </p>
             <p className="text-lg text-slate-400 font-regular">
