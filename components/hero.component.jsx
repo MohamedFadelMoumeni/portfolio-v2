@@ -8,6 +8,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { Link as ScrollLink } from "react-scroll";
 import Typical from "react-typical";
+import Link from "next/link";
 
 const Hero = () => {
   useEffect(() => {
@@ -67,10 +68,26 @@ const Hero = () => {
                 />
               </div>
               <div className="flex items-center w-full md:justify-start py-8 justify-center space-x-4">
-                <FaFacebookF cursor={"pointer"} size={25} />
-                <FaLinkedinIn cursor={"pointer"} size={25} />
-                <AiFillGithub cursor={"pointer"} size={25} />
-                <MdOutlineAlternateEmail cursor={"pointer"} size={25} />
+                <Link href="https://www.facebook.com/profile.php?id=100019011732806">
+                  <a target="_blank">
+                    <FaFacebookF cursor={"pointer"} size={25} />
+                  </a>
+                </Link>
+                <Link href="https://www.linkedin.com/in/mohamedfadelmoumeni/">
+                  <a target="_blank">
+                    <FaLinkedinIn cursor={"pointer"} size={25} />
+                  </a>
+                </Link>
+                <Link href="https://github.com/MohamedFadelMoumeni">
+                  <a target="_blank">
+                    <AiFillGithub cursor={"pointer"} size={25} />
+                  </a>
+                </Link>
+                <Link href="mailto:mohamedfadelmoumeni@gmail.com">
+                  <a target="_blank">
+                    <MdOutlineAlternateEmail cursor={"pointer"} size={25} />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className=" w-full h-full flex items-center justify-center relative  parallax  z-10">

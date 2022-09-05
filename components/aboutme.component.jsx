@@ -30,16 +30,16 @@ const Aboutme = () => {
           <div className="grow md:pl-10  self-stretch  py-6">
             <h4 className="font-bold mb-4 text-red-500 text-lg">About me</h4>
             <h1 className="text-3xl font-bold mb-6">
-              I{"'"}m Mohamed Web Designer
+              I{"'"}m Mohamed Software developer.
             </h1>
             <p className="text-lg text-slate-400 font-regular mb-6">
-              Hi! My name is Aali Walker. I am UI/UX designer, and I{"'"}m very
-              passionate and dedicated to my work.
+              Hi! My name is Mohamed Fadel Moumeni. I am Software developer, and
+              I'm very passionate and dedicated to my work.
             </p>
             <p className="text-lg text-slate-400 font-regular">
-              With 20 years experience as a professional graphic designer and
-              web developer, I have acquired the skills and knowledge necessary
-              to make your project a success
+              With +3 years experience as a professional developer , I have
+              acquired the skills and knowledge necessary to make your project a
+              success.
             </p>
             <div className="w-full p-1  mt-4">
               <h2 className="font-bold mb-4">Skills :</h2>

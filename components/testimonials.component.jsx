@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./container.component";
 import Carouselcard from "./ui/carousel-card.component";
 import { Navigation, A11y } from "swiper";
+import TESTIMONIALS from "../data/testimonials";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -30,18 +31,11 @@ const Testimonials = () => {
               nextEl: ".next_button",
             }}
           >
-            <SwiperSlide>
-              <Carouselcard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Carouselcard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Carouselcard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Carouselcard />
-            </SwiperSlide>
+            {TESTIMONIALS.map((testimonial) => (
+              <SwiperSlide key={testimonial.id}>
+                <Carouselcard data={testimonial} />
+              </SwiperSlide>
+            ))}
           </Swiper>
           <div className="w-full mt-6 flex items-center justify-center space-x-4">
             <a className="prev_button">
