@@ -3,6 +3,7 @@ import Container from "./container.component";
 import Navigation from "./navigation.component";
 import { headerAnimation } from "../utils";
 import Image from "next/image";
+import Mobileheader from "./mobile-header.component";
 
 const Header = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const Header = () => {
             <Image src={"/logo.png"} layout="fill" />
           </div>
           <Navigation />
+          <Mobileheader />
         </div>
       </Container>
     </div>
