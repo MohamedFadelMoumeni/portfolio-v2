@@ -14,15 +14,12 @@ const Hero = () => {
     parallax();
   });
   return (
-    <div
-      className="flex flex-col  h-auto md:h-screen bg-slate-800 text-white  "
-      id="home"
-    >
+    <div className="flex flex-col h-auto  bg-slate-800 text-white " id="home">
       <Header />
-      <div className="w-full grow">
+      <div className="w-full h-full grow">
         <Container style="h-full">
-          <div className="w-full h-full pt-24  flex flex-col-reverse md:flex-row items-center justify-between relative ">
-            <div className="flex flex-col  space-y-4 md:space-y-8 z-10">
+          <div className="w-full h-full pt-24 grid grid-cols-1 md:grid-cols-2  gap-0 md:gap-2 ">
+            <div className="flex flex-col w-full h-full  justify-center space-y-8 md:space-y-8 z-10 ">
               <h4 className="font-bold text-xl ">Hello, I{"'"}m</h4>
               <h1 className="font-bold text-5xl ">Mohamed Fadel</h1>
               <h4 className="font-bold text-3xl ">
@@ -76,18 +73,18 @@ const Hero = () => {
                 <MdOutlineAlternateEmail cursor={"pointer"} size={25} />
               </div>
             </div>
-            <div className="flex flex-col mb-8 md:mb-0 relative w-full   md:w-2/5 align-stretch z-10">
-              <div className="w-full h-80 pt-6 md:pt-0 md:h-96 flex items-center justify-center md:justify-end relative  parallax  relative">
-                <img
-                  data-depth="0.1"
-                  src="me.jpg"
-                  className="h-full   drop-shadow-2xl rounded-0 md:rounded-full layer absolute"
-                />
-                <div
-                  data-depth="0.5"
-                  className=" w-4 h-4 bg-red-500 rounded-full layer top-0 left-0 absolute z-30"
-                />
-              </div>
+            <div className=" w-full h-full flex items-center justify-center relative  parallax  z-10">
+              <img
+                data-depth="0.1"
+                src="me.jpg"
+                style={{ height: "75%" }}
+                className="inline drop-shadow-2xl rounded-0 md:rounded-full layer "
+              />
+
+              <div
+                data-depth="0.5"
+                className=" w-4 h-4 bg-red-500 rounded-full layer  absolute z-30"
+              />
             </div>
             <h3 className="hidden md:block absolute z-0  text-slate-800 stroke-text ">
               CODING

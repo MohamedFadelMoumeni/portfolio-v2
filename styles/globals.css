@@ -53,3 +53,33 @@ p {
   top: 50%;
   transform: translateY(-70%);
 }
+
+@keyframes logoanimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes nav {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.logo {
+  animation: logoanimation 2s ease-in-out;
+}
+.nav-item {
+  animation: nav 2s ease-in-out;
+}

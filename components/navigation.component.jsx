@@ -3,7 +3,7 @@ import NavItem from "./navitem.component";
 
 const Navigation = () => {
   return (
-    <nav className=" grow flex items-center justify-end space-x-10">
+    <nav className="hidden md:flex grow  items-center justify-end space-x-10">
       <NavItem title="Home" href="home" />
       <NavItem title="About me" href="aboutme" />
       <NavItem title="Projects" href="projects" />

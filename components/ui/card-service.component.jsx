@@ -5,7 +5,7 @@ const Cardservice = ({ img, title }) => {
   return (
     <div className="max-h-fit drop-shadow-md p-4 flex flex-col md:flex-row  items-center justify-between col-span-4  md:col-span-2  rounded-lg bg-white">
       <div className="w-full h-48 md:h-auto md:w-2/5 relative self-stretch  flex items-center justify-center">
-        <Image src={img} layout="fill" />
+        <Image src={img} width={200} height={200} />
       </div>
       <div className="text-black w-full md:w-3/5 ">
         <h1 className="text-xl font-bold ">{title}</h1>

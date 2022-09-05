@@ -12,7 +12,7 @@ const Header = () => {
     <div className=" w-full bg-transparent py-4 fixed top-0 right-0 left-0 header z-50">
       <Container>
         <div className="w-full flex items-center justify-between">
-          <div className="relative bg-red-500 w-10 h-10 md:w-14 md:h-14 cursor-pointer">
+          <div className="relative bg-red-500 w-10 h-10 md:w-14 md:h-14 cursor-pointer logo">
             <Image src={"/logo.png"} layout="fill" />
           </div>
           <Navigation />
