@@ -10,7 +10,7 @@ const Trusted = () => {
           Worked with
         </h1>
         <p className="mb-10 text-center text-black text-lg">
-          I'm proud to have collaborated with some awesome companies
+          I{"'"}m proud to have collaborated with some awesome companies
         </p>
         <div className="w-full flex items-center justify-between flex-wrap">
           <Link href={"https://hakamae.com/"}>
