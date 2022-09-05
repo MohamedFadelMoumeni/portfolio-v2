@@ -6,7 +6,10 @@ import Button from "./ui/button.component";
 import Error from "./ui/error.component";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { AiFillCheckCircle } from "react-icons/ai";
+
+init("user_bM4xybOYdSi4Yze6lkBE6");
+import emailjs from "emailjs-com";
+import { init } from "@emailjs/browser";
 
 const FormContact = () => {
   return (
@@ -24,16 +27,49 @@ const FormContact = () => {
           phone: Yup.string().required("Phone is required."),
           message: Yup.string().required("Message is required."),
         })}
-        onSubmit={(values) => {
-          toast.success(" We received your message.", {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
+        onSubmit={(values, { resetForm }) => {
+          const templateParams = {
+            name: values.name,
+            email: values.email,
+            phone: values.phone,
+            message: values.message,
+          };
+
+          emailjs
+            .send(
+              "service_d7x19dh",
+              "template_tsdb2o4",
+              templateParams,
+              "sSdTyICGighgZ-Zt_"
+            )
+            .then(
+              (result) => {
+                if (result.text == "OK") {
+                  toast.success(" We received your message.", {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                  });
+                  resetForm();
+                }
+              },
+              (error) => {
+                console.log(error);
+                toast.error(" Error, please try again.", {
+                  position: "top-center",
+                  autoClose: 5000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
+              }
+            );
         }}
       >
         {({ errors, touched }) => (

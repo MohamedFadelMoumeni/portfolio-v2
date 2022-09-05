@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@heroicons/react": "^2.0.10",
+    "emailjs": "^4.0.1",
+    "emailjs-com": "^3.2.0",
     "formik": "^2.2.9",
     "next": "12.2.5",
     "parallax-js": "^3.1.0",
