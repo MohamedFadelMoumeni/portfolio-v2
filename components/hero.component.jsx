@@ -38,7 +38,7 @@ const Hero = () => {
                   className="text-red-500"
                 />
               </h4>
-              <div className="w-full flex   items-center space-x-6">
+              <div className="w-full flex flex-col md:flex-row  items-center space-y-4 md:space-y-0 space-x-0 md:space-x-6">
                 <Button
                   href="#contact"
                   title="Contact me"

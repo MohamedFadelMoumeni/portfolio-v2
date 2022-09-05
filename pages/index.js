@@ -8,6 +8,8 @@ import Resume from "../components/resume.component";
 import Testimonials from "../components/testimonials.component";
 import Statistics from "../components/statistics.component";
 import Contact from "../components/contact.component";
+import Conferences from "../components/conferrences.component";
+import Trusted from "../components/trusted.component";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Portfolio />
       <Service />
       <Resume />
+      <Conferences />
+      <Trusted />
       <Testimonials />
       <Statistics />
       <Contact />
