@@ -34,7 +34,7 @@ const Aboutme = () => {
             </h1>
             <p className="text-lg text-slate-400 font-regular mb-6">
               Hi! My name is Mohamed Fadel Moumeni. I am Software developer, and
-              I'm very passionate and dedicated to my work.
+              I{"'"}m very passionate and dedicated to my work.
             </p>
             <p className="text-lg text-slate-400 font-regular">
               With +3 years experience as a professional developer , I have
