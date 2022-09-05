@@ -14,7 +14,11 @@ const Resume = () => {
         <div className="w-full my-10">
           <h1 className="text-red-500 text-2xl font-semibold">Education</h1>
           <div className="w-full grid grid-cols-1 md:grid-cols-2   mt-6">
-            <WorkCard>
+            <WorkCard
+              title="High School"
+              date="2019"
+              description="High scholl degree in Physics."
+            >
               <div className="p-2 bg-red-500 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +36,11 @@ const Resume = () => {
                 </svg>
               </div>
             </WorkCard>
-            <WorkCard>
+            <WorkCard
+              title="Bachelor Degree"
+              date="2022"
+              description="Bachelor Degree in Computer Science."
+            >
               <div className="p-2 bg-red-500 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

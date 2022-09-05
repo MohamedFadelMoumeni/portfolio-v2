@@ -6,9 +6,12 @@ const Trusted = () => {
   return (
     <div className="w-full  py-20">
       <Container>
-        <h1 className="text-center text-black mb-10 text-5xl font-bold wrap">
+        <h1 className="text-center text-black  text-5xl font-bold mb-4">
           Worked with
         </h1>
+        <p className="mb-10 text-center text-black text-lg">
+          I'm proud to have collaborated with some awesome companies
+        </p>
         <div className="w-full flex items-center justify-between flex-wrap">
           <Link href={"https://hakamae.com/"}>
             <a target="_blank">
