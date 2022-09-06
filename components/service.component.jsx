@@ -9,8 +9,8 @@ const Service = () => {
           <div className="w-full col-span-1 md:col-span-2">
             <h1 className=" text-5xl font-bold mb-6 ">My service</h1>
             <p className=" w-full text-slate-400 font-regular text-xl">
-              We offer high quality products for competitive prices. Our main
-              goal is customer satisfaction, which we obtain through market
+              I offer high quality products for competitive prices. My main goal
+              is customer satisfaction, which I obtain through market
               orientation of ongoing service and support.
             </p>
           </div>

@@ -19,7 +19,7 @@ const Roadmap = () => {
         />
       </div>
       <h1 className={`font-bold text-sm  mb-4 text-center `}>
-        Not sure where to start? I'll help you find the right path
+        Not sure where to start? I{"'"}ll help you find the right path
         <Link className={`${close && "hidden"}`} href={"/comming-soon"}>
           <a className="text-red-500 block mt-2 underline">Click here</a>
         </Link>
