@@ -83,3 +83,17 @@ p {
 .nav-item {
   animation: nav 2s ease-in-out;
 }
+
+@keyframes showads {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.ads {
+  animation: showads 1s;
+}

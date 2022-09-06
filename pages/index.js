@@ -10,6 +10,8 @@ import Statistics from "../components/statistics.component";
 import Contact from "../components/contact.component";
 import Conferences from "../components/conferrences.component";
 import Trusted from "../components/trusted.component";
+import Roadmap from "../components/roadmap.component";
+import Fade from "react-reveal/Fade";
 
 export default function Home() {
   return (
@@ -28,6 +30,7 @@ export default function Home() {
       <Testimonials />
       <Statistics />
       <Contact />
+      <Roadmap />
     </div>
   );
 }

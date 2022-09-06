@@ -37,7 +37,6 @@ const Mobileheader = () => {
         <div className=" text-white w-full self-stretch flex space-y-6 flex-col items-center h-full ">
           <NavItem title="Home" href="home" />
           <NavItem title="About me" href="aboutme" />
-          <NavItem title="Projects" href="projects" />
           <NavItem title="Service" href="service" />
           <NavItem title="Resume" href="resume" />
           <NavItem title="Testimonials" href="testimonials" />
