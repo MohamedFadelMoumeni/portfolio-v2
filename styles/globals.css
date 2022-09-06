@@ -97,3 +97,9 @@ p {
 .ads {
   animation: showads 1s;
 }
+
+.bi-diagram {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border: 0 !important;
+}

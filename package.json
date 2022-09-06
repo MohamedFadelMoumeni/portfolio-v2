@@ -11,6 +11,8 @@
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@heroicons/react": "^2.0.10",
+    "@projectstorm/react-diagrams-core": "^6.7.2-alpha.0",
+    "beautiful-react-diagrams": "^0.5.1",
     "emailjs": "^4.0.1",
     "emailjs-com": "^3.2.0",
     "formik": "^2.2.9",

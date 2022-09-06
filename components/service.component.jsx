@@ -17,15 +17,21 @@ const Service = () => {
           <Cardservice
             title="Web Developement"
             img="/Web Developer_Outline.png"
+            description="I create your digital presence with a unique design.
+ I effectively manage your digital identity and the user experience of your client.
+Usint the lastest technologies."
           />
           <Cardservice
             title="Mobile Developement"
             img="/Mobile Phone_Outline.png"
+            description="Develop high added value mobile apps.
+I also provide actionable insights and recommendations. I have the ability to hit the ground running and solve many challenges."
           />
-          <Cardservice title="UX/UI Design" img="/Designer _Outline.png" />
+
           <Cardservice
             title="Penestration Testing"
             img="/Security_Outline.png"
+            description="Simulate an attack on your apps to show you your weaknesses (and how to bolster them)."
           />
         </div>
       </Container>
