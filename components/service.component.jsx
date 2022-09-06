@@ -3,7 +3,7 @@ import Container from "./container.component";
 import Cardservice from "./ui/card-service.component";
 const Service = () => {
   return (
-    <div className="w-full py-10 md:py-20">
+    <div className="w-full py-10 md:py-20" id="service">
       <Container>
         <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-6 md:mt-10">
           <div className="w-full col-span-1 md:col-span-2">
